@@ -1,0 +1,22 @@
+{
+    "locations": [
+        {
+            "prettyLocalName": "London",
+            "coord": {
+                "lat": 51.5074,
+                "lon": -0.1278
+            },
+            "lowerLimit": 2,
+            "upperLimit": 10
+        },
+        {
+            "prettyLocalName": "New York",
+            "coord": {
+                "lat": 40.7128,
+                "lon": -74.0059
+            },
+            "lowerLimit": 2,
+            "upperLimit": 10
+        }
+    ]
+}
