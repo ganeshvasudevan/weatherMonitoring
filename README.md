@@ -1,7 +1,7 @@
 # Project Weather Monitoring
 
 Periodically checks weather forecast against given limits of temperature and reports if there are forecasted temperature outside the limit.
-The code is written in golang.
+The weather forecast is retrieved using API(s) provided by https://openweathermap.org/api
 
 ## Getting Started
 
