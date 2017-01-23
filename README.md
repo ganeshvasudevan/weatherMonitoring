@@ -2,7 +2,7 @@
 
 Periodically checks weather forecast against given limits of temperature and reports if there are forecasted temperature outside the limit.
 The weather forecast is retrieved using API(s) provided by https://openweathermap.org/api
-
+Weather query returns temperature in metric system (Celsius).
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -52,6 +52,8 @@ The user input data file format is json with the below template
 }
 
 ```
+lowerLimit and upperLimit in Celsius scala are the temperature limit that will be checked against weather forecast.
+
 A sample input data file is placed with the this repo for execution.
 
 Due to the weather API used in this program currently max supported location is 60.
