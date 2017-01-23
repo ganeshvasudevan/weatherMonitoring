@@ -106,7 +106,7 @@ func FetchAndCheckWeatherLimits(location LocationsType, ch chan<- string) {
 		if weatherForecast.Main.Temp < location.LowerLimit ||
 			weatherForecast.Main.Temp > location.UpperLimit {
 			log.Printf("Pretty city name:%v city name:%v lat:%v lon:%v limit upper:%v"+
-				"lower:%v Forecasted Temperature:%v date:%v \n", location.PrettyLocalName,
+				" lower:%v Forecasted Temperature:%v date:%v \n", location.PrettyLocalName,
 				webResponse.City.Name, location.Coord.Lat, location.Coord.Lon,
 				location.UpperLimit, location.LowerLimit, weatherForecast.Main.Temp,
 				weatherForecast.Dt_txt)
