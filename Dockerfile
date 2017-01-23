@@ -11,6 +11,7 @@ ADD . /go/src/github.com/weatherMonitoring
 RUN go get github.com/smartystreets/goconvey
 RUN cp /go/src/github.com/weatherMonitoring/locationWithTemperatureLimits.json /go/
 RUN go build github.com/weatherMonitoring
+RUN apt update && apt install -y vim
 
 # Run the outyet command by default when the container starts.
 ENTRYPOINT /bin/bash
